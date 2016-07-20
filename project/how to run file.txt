@@ -1,0 +1,26 @@
+
+
+
+     ***if you have Eclipse IDE and MySQL server, you can add Forecast.java file in any project 
+	
+		then add  mysql-connector-java-5.1.39-bin.jar(it can be any version of mysql connector jar file).
+		
+
+
+     ***if you want to run on command prompt(cmd),you need to run following statement
+
+		
+		1-) filepath>javac -g -cp mysql-connector-java-5.1.39-bin.jar; Forecast.java to compile the file
+			
+		2-) filepath>java -cp mysql-connector-java-5.1.39-bin.jar; Forecast to run the file.
+
+     
+     ***program will print out the following 
+
+		Database created.
+		Table created.
+		csv file added to database.
+		database has been read
+		csv file for q1 and q2 have been created successfully
+		csv file for q3 has been created successfully
+		how much time does the program take seconds
